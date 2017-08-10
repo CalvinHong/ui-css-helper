@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "./node_modules/.bin/gulp",
+    "watch": "./node_modules/.bin/gulp watch"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "clear-require": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-filelog": "^0.4.1",
+    "gulp-postcss": "^7.0.0",
+    "postcss-hexrgba": "^1.0.0",
+    "postcss-px2rem": "^0.3.0",
+    "postcss-simple-vars": "^4.0.0"
+  },
+  "name": "ui-css-helper",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "calvin<calvin.hongbinfu@gmail.com>",
+  "license": "MIT",
+  "description": "面向ui同事的css工具",
+  "repository": "git@github.com:CalvinHong/ui-css-helper.git"
+}

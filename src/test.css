@@ -1,0 +1,20 @@
+.test-size{
+  /*默认使用rem模式*/
+  width:20px;
+  /*使用dpr模式*/
+  font-size: 15px;/*px*/
+  /*强制使用px*/
+  height:20px;/*no*/
+}
+.test-prefix{
+  display:flex;
+  box-shadow: 2px 2px 2px #e2e2e2;
+}
+.test-color{
+  color:rgba(#f1f1f1,0.5);
+}
+.test-variable{
+  color:$primary;
+  padding:$padding;
+  font-size: $fontXL;/*px*/
+}
